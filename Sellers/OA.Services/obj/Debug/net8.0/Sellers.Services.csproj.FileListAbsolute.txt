@@ -1,0 +1,17 @@
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.Services.deps.json
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.Services.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.Services.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.AssemblyInfoInputs.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.AssemblyInfo.cs
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.csproj.CoreCompileInputs.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\refint\Sellers.Services.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\ref\Sellers.Services.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.DTO.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.Entity.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.DTO.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.Services\bin\Debug\net8.0\Sellers.Entity.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers.Services.csproj.AssemblyReference.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Services\obj\Debug\net8.0\Sellers..54AB2BFE.Up2Date

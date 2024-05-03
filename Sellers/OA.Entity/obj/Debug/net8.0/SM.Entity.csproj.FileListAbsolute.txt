@@ -1,0 +1,15 @@
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\bin\Debug\net8.0\SM.Entity.deps.json
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\bin\Debug\net8.0\SM.Entity.runtimeconfig.json
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\bin\Debug\net8.0\SM.Entity.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\bin\Debug\net8.0\SM.Entity.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.csproj.AssemblyReference.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.AssemblyInfoInputs.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.AssemblyInfo.cs
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.csproj.CoreCompileInputs.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.sourcelink.json
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\refint\SM.Entity.dll
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\SM.Entity.genruntimeconfig.cache
+C:\David\Sellers\Seller_System\Sellers\OA.Entity\obj\Debug\net8.0\ref\SM.Entity.dll

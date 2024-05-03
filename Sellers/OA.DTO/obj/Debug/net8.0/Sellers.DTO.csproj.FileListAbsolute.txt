@@ -1,0 +1,11 @@
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\bin\Debug\net8.0\Sellers.DTO.deps.json
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\bin\Debug\net8.0\Sellers.DTO.dll
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\bin\Debug\net8.0\Sellers.DTO.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\Sellers.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\Sellers.DTO.AssemblyInfoInputs.cache
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\Sellers.DTO.AssemblyInfo.cs
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\Sellers.DTO.csproj.CoreCompileInputs.cache
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\Sellers.DTO.dll
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\refint\Sellers.DTO.dll
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\Sellers.DTO.pdb
+C:\David\Sellers\Seller_System\Sellers\OA.DTO\obj\Debug\net8.0\ref\Sellers.DTO.dll
