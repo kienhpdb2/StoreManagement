@@ -12,6 +12,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.4",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
+          "SM.Common": "1.0.0",
           "SM.DTO": "1.0.0",
           "SM.Entity": "1.0.0"
         },
@@ -531,7 +532,15 @@
         }
       },
       "System.Text.Encodings.Web/4.5.0": {},
+      "SM.Common/1.0.0": {
+        "runtime": {
+          "SM.Common.dll": {}
+        }
+      },
       "SM.DTO/1.0.0": {
+        "dependencies": {
+          "SM.Common": "1.0.0"
+        },
         "runtime": {
           "SM.DTO.dll": {}
         }
@@ -540,7 +549,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
+          "SM.Common": "1.0.0"
         },
         "runtime": {
           "SM.Entity.dll": {}
@@ -1008,6 +1018,11 @@
       "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "path": "system.text.encodings.web/4.5.0",
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
+    "SM.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SM.DTO/1.0.0": {
       "type": "project",

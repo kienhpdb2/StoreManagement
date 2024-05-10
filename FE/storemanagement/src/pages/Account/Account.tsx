@@ -14,7 +14,7 @@ const Account = () => {
     const [openView, setOpenView] = useState(false);
     const [openEdit, setOpenEdit] = useState(false);
     const [curentId, setCurentId] = useState<any>(Number);
-    const [curentTenant, setCurentTenant] = useState<any>();
+    const [account, setAccount] = useState<any>();
     const columns: ColumnsType<AccountDto> = [
         {
             title: 'Họ & Tên',
@@ -56,7 +56,7 @@ const Account = () => {
     const getListAccount = (search: string = '') => {
         axios.get(`Account`).then((res) => {
             let { data } = res;
-            if (data.success) {
+            if (data && data.success) {
                 setData(data.data);
             }
         })
@@ -74,10 +74,10 @@ const Account = () => {
         setOpenView(true);
     }
     const handleFormEdit = (id: any) => {
-        axios.get(`Tenant/${id}`).then((res) => {
+        axios.get(`Account/${id}`).then((res) => {
             let { data } = res;
-            if (data.success) {
-                setCurentTenant(data.data);
+            if (data && data.success) {
+                setAccount(data.data);
                 setOpenEdit(true);
             }
             else {
@@ -108,6 +108,8 @@ const Account = () => {
                 </Col>
             </Row>
         </div>
+        {open && <AddModal open={open} closeForm={closeForm} />}
+        {openEdit && <EditModal open={openEdit} closeForm={closeForm} account={account} />}
         {/* {open && <AddModal open={open} closeForm={closeForm} />}
         {openView && <ViewModal open={openView} closeForm={closeForm} id={curentId} />}
         {openEdit && <EditModal open={openEdit} closeForm={closeForm} curentTenant={curentTenant} />} */}

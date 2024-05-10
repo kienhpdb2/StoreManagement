@@ -11,6 +11,7 @@ using Sellers.Services.IRepository;
 using Sellers.Services.Repository.Auth;
 using SM.Services.IRepository;
 using SM.Services.Repository.Account;
+using SM.Services.Repository.Categories;
 using SM.Services.Repository.Tenants;
 using System.Text;
 
@@ -35,6 +36,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 builder.Services.AddTransient<IAuthenticationService, AuthenticationService>();
 builder.Services.AddTransient<ITenantService, TenantService>();
 builder.Services.AddTransient<IAccountService, AccountService>();
+builder.Services.AddTransient<ICategoryService, CategoryService>();
 
 builder.Services.AddAuthentication(options =>
 {

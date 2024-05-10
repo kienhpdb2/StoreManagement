@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using SM.Entity;
+using SM.Services.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,9 @@ namespace Sellers.Entity
         public DateTime? DeletedAt { get; set; }
         public Guid? TenantId { get; set; }
         public string FullName { get; set; }
+        public string? Address { get; set; }
+        public DateTime? Dob { get; set; }
+        public GenderEnum Gender { get; set; }
 
         public TenantEntity? Tenant { get; set; }
     }

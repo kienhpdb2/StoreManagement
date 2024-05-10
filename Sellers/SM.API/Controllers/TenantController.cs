@@ -11,7 +11,7 @@ namespace SM.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class TenantController : ControllerBase
     {
         private readonly ITenantService _tenantService;

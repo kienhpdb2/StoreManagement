@@ -5,6 +5,7 @@ import Login from 'pages/Login/Login';
 import Dashboard from 'pages/Dashboard/Dashboard';
 import Tenant from 'pages/Tenant/Tenant';
 import Account from 'pages/Account/Account';
+import Category from 'pages/Category/Category';
 // import Register from 'pages/Register/Register';
 // import Teacher from 'pages/Teacher/Teacher';
 // import Student from 'pages/Student/Student';
@@ -36,6 +37,11 @@ const App = () => {
               path: "/account-management",
               index: false,
               element: <Account />
+            },
+            {
+              path: '/category-management',
+              index: false,
+              element: <Category />
             }
           ]
         },

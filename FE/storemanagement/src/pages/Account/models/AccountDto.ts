@@ -7,6 +7,9 @@ interface AccountDto {
     tenantName: string;
     role: string;
     fullName: string;
+    address: string;
+    gender: number;
+    dob: Date;
 }
 
 export default AccountDto;

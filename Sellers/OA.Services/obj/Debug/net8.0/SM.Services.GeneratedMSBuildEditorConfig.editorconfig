@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SM.Services
-build_property.ProjectDir = C:\Users\ADMIN\Downloads\ĐATN\Seller_System\Sellers\OA.Services\
+build_property.ProjectDir = C:\Users\ADMIN\Downloads\ĐATN\9-5\Seller_System\Sellers\OA.Services\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

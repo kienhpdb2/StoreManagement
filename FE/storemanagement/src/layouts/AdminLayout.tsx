@@ -44,6 +44,7 @@ const AdminLayout = () => {
                     <Menu.Item key={1} onClick={() => navigate("/")}><DashboardOutlined /> <span>Dashboard</span></Menu.Item>
                     <Menu.Item key={2} onClick={() => navigate("/tenant-management")}><AppstoreAddOutlined /> <span>Quản Lý Cửa Hàng</span></Menu.Item>
                     <Menu.Item key={3} onClick={() => navigate("/account-management")}><UserSwitchOutlined /> <span>Quản Lý Tài Khoản</span></Menu.Item>
+                    <Menu.Item key={4} onClick={() => navigate("/category-management")}><UserSwitchOutlined /> <span>Quản Lý Thể Loại</span></Menu.Item>
                     <Menu.Item key={8} onClick={() => navigate("/login")}><LogoutOutlined /> <span>Đăng Xuất</span></Menu.Item>
                 </Menu>
             </Sider>

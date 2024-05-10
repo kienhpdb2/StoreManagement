@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.DTO", "OA.DTO\SM.DTO.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Services", "OA.Services\SM.Services.csproj", "{7CB2CA02-4331-44E0-B0CD-5CA72332F677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.API", "SM.API\SM.API.csproj", "{4035BE7A-1D34-43E5-9D85-887CD972FC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.API", "SM.API\SM.API.csproj", "{4035BE7A-1D34-43E5-9D85-887CD972FC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Common", "SM.Common\SM.Common.csproj", "{E517AEBB-AA21-48C2-8C00-3A70B23BD0D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4035BE7A-1D34-43E5-9D85-887CD972FC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4035BE7A-1D34-43E5-9D85-887CD972FC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4035BE7A-1D34-43E5-9D85-887CD972FC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E517AEBB-AA21-48C2-8C00-3A70B23BD0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E517AEBB-AA21-48C2-8C00-3A70B23BD0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E517AEBB-AA21-48C2-8C00-3A70B23BD0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E517AEBB-AA21-48C2-8C00-3A70B23BD0D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

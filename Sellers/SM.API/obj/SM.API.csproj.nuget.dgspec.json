@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\SM.API\\SM.API.csproj": {}
+    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj": {
+    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
         "projectName": "SM.DTO",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj": {
+    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj",
         "projectName": "SM.Entity",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Entity\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,7 +91,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -150,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj": {
+    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj",
         "projectName": "SM.Services",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Services\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,11 +182,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj"
+              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj"
               },
-              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj"
+              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Entity\\SM.Entity.csproj"
+              },
+              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj"
               }
             }
           }
@@ -235,14 +246,14 @@
         }
       }
     },
-    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\SM.API\\SM.API.csproj": {
+    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
         "projectName": "SM.API",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\SM.API\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -259,8 +270,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj"
+              "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj": {
+                "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj"
               }
             }
           }
@@ -318,6 +329,66 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj",
+        "projectName": "SM.Common",
+        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

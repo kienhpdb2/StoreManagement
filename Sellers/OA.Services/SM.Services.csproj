@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\OA.DTO\SM.DTO.csproj" />
     <ProjectReference Include="..\OA.Entity\SM.Entity.csproj" />
+    <ProjectReference Include="..\SM.Common\SM.Common.csproj" />
   </ItemGroup>
 
 </Project>

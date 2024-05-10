@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SM.Services.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,5 +18,8 @@ namespace SM.DTO.Accounts
         public Guid? TenantId { get; set; }
         public string TenantName { get; set; } = string.Empty;
         public string Role { get; set; } = string.Empty;
+        public GenderEnum Gender { get; set; }
+        public DateTime? Dob { get; set; }
+        public string? Address { get; set; }
     }
 }

@@ -29,7 +29,7 @@ namespace Sellers.Entity.Seed
 
                 var users = new List<AppUserEntity>
                 {
-                    new AppUserEntity { UserName = "admin@gmail.com", Email = "admin@gmail.com", IsActived = true },
+                    new AppUserEntity { UserName = "admin@gmail.com", Email = "admin@gmail.com", IsActived = true, Gender = SM.Services.Enums.GenderEnum.Unknown, FullName = "Quản Trị Viên" },
                 };
 
                 foreach (var user in users)

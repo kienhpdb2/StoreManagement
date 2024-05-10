@@ -96,7 +96,7 @@ namespace Sellers.Services.Repository.Auth
 
         public async Task<ResponseDto> SignUpAsync(string email, string password, Guid tenantId, string role, string phoneNumber, string fullName)
         {
-            var usersEntity = new AppUserEntity { PhoneNumber = phoneNumber, FullName = fullName, IsActived = true, Email = email, UserName = email, TenantId = tenantId };
+            var usersEntity = new AppUserEntity { PhoneNumber = phoneNumber, FullName = fullName, IsActived = true, Email = email, UserName = email, TenantId = tenantId, Gender = SM.Services.Enums.GenderEnum.Unknown };
             var result = await _signInManager.UserManager.CreateAsync(usersEntity, password);
             if (result.Succeeded)
             {

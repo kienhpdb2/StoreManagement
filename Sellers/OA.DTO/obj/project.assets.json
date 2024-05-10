@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "SM.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SM.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SM.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SM.Common/1.0.0": {
+      "type": "project",
+      "path": "../SM.Common/SM.Common.csproj",
+      "msbuildProject": "../SM.Common/SM.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "SM.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
       "projectName": "SM.DTO",
-      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\SM.DTO.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\Seller_System\\Sellers\\OA.DTO\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
