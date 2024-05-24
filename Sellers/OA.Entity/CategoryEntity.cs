@@ -27,5 +27,7 @@ namespace SM.Entity
         public AppUserEntity Account { get; set; }
 
         public TenantEntity Tenant { get; set; }
+
+        public ICollection<ProductEntity> Products { get; set; }
     }
 }

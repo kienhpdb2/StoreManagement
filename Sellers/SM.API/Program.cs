@@ -12,6 +12,7 @@ using Sellers.Services.Repository.Auth;
 using SM.Services.IRepository;
 using SM.Services.Repository.Account;
 using SM.Services.Repository.Categories;
+using SM.Services.Repository.Products;
 using SM.Services.Repository.Tenants;
 using System.Text;
 
@@ -33,10 +34,12 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequiredLength = 4;
     options.User.RequireUniqueEmail = false;
 });
+
 builder.Services.AddTransient<IAuthenticationService, AuthenticationService>();
 builder.Services.AddTransient<ITenantService, TenantService>();
 builder.Services.AddTransient<IAccountService, AccountService>();
 builder.Services.AddTransient<ICategoryService, CategoryService>();
+builder.Services.AddTransient<IProductService, ProductService>();
 
 builder.Services.AddAuthentication(options =>
 {

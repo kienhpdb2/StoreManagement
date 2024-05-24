@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AJjQm2DQpfpsp58P0i9Ae5I1Ry9WSgR+R7BbKvBfjRVuyBiS8OBITk7AF1NWXzjLU/l+lXAx35aWYkp2C7K4bA==",
+  "dgSpecHash": "QNlMRW+WFYjR89ArmS84fE9THZEFm0NjqNOzuO8URJuKUK0J8y3DcU56hnXZK205HPCya5CmS5UHMD+IeNxHkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnet.identity.owin\\2.2.4\\microsoft.aspnet.identity.owin.2.2.4.nupkg.sha512",

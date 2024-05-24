@@ -4582,11 +4582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
       "projectName": "SM.API",
-      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\SM.API\\SM.API.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.API\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\SM.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4603,8 +4603,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj"
+            "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\OA.Services\\SM.Services.csproj"
             }
           }
         }

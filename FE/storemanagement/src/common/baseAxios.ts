@@ -7,10 +7,10 @@ axios.interceptors.response.use(
   (response) => response,
   (error) => {
     if (error?.response?.status === 401) {
-      return window.location.href = "/login";
+      // return window.location.href = "/login";
     }
     else if (error.request) {
-      return window.location.href = "/login";
+      // return window.location.href = "/login";
     }
     return Promise.reject(error);
   }

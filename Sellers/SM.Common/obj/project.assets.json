@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj",
       "projectName": "SM.Common",
-      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\SM.Common\\SM.Common.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\9-5\\Seller_System\\Sellers\\SM.Common\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\ĐATN\\20-5\\Seller_System\\Sellers\\SM.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

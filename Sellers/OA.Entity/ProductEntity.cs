@@ -24,10 +24,11 @@ namespace SM.Entity
         public decimal Price { get; set; }
         public decimal PurchasePrice { get; set; } /** Giá nhập vào */
         public Guid TenantId { get; set; }
-        public Guid AccountId { get; set; }
+        public string AccountId { get; set; }
         public Guid CategoryId { get; set; }
 
         public CategoryEntity Category { get; set; }
+        [ForeignKey(nameof(AccountId))]
         public AppUserEntity Account { get; set; }
 
         public TenantEntity Tenant { get; set; }

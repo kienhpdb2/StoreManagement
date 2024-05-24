@@ -11,9 +11,10 @@ namespace SM.Services.IRepository
     public interface IProductService
     {
         Task<ResponseDto> CreateAsync(CreateProductDto request, Guid tenantId, Guid accountId);
-        Task<ResponseDto> UpdateAsync(EditProductDto request, Guid tenantId, Guid accountId);
+        Task<ResponseDto> UpdateAsync(EditProductDto request, Guid id, Guid tenantId);
         Task<ResponseDto> DeleteAsync(Guid id, Guid tenantId);
         Task<ResponseDto<List<ProductDto>>> GetAsync(Guid tenantId);
         Task<ResponseDto<ProductDto>> GetByIdAsync(Guid id, Guid tenantId);
+        Task<ResponseDto<List<ProductDto>>> SearchProductAsync(Guid tenantId, string keyword);
     }
 }

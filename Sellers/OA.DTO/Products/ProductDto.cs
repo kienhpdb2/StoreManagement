@@ -18,5 +18,7 @@ namespace SM.DTO.Products
         public string TenantName { get; set; }
         public string CreatedName { get; set; }
         public DateTime CreatedAt { get; set; }
+        public string Label { get; set; }
+        public string Value { get; set; }
     }
 }

@@ -205,10 +205,8 @@ namespace Sellers.Entity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("AccountId")
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("AccountId1")
+                    b.Property<string>("AccountId")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("CategoryId")
@@ -248,7 +246,7 @@ namespace Sellers.Entity.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AccountId1");
+                    b.HasIndex("AccountId");
 
                     b.HasIndex("CategoryId");
 
@@ -471,7 +469,9 @@ namespace Sellers.Entity.Migrations
                 {
                     b.HasOne("Sellers.Entity.AppUserEntity", "Account")
                         .WithMany()
-                        .HasForeignKey("AccountId1");
+                        .HasForeignKey("AccountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("SM.Entity.CategoryEntity", "Category")
                         .WithMany()

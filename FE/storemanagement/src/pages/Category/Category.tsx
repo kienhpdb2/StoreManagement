@@ -100,9 +100,6 @@ const Category = () => {
         </div>
         {open && <AddModal open={open} closeForm={closeForm} />}
         {openEdit && <EditModal open={openEdit} closeForm={closeForm} category={category} />}
-        {/* {open && <AddModal open={open} closeForm={closeForm} />}
-        {openView && <ViewModal open={openView} closeForm={closeForm} id={curentId} />}
-        {openEdit && <EditModal open={openEdit} closeForm={closeForm} curentTenant={curentTenant} />} */}
     </>
 }
 export default Category;

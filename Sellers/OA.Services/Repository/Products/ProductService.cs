@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Sellers.DTO;
 using Sellers.Entity;
+using SM.DTO.Categories;
 using SM.DTO.Products;
 using SM.Services.IRepository;
 using System;
@@ -28,7 +29,7 @@ namespace SM.Services.Repository.Products
             productE = new Entity.ProductEntity
             {
                 TenantId = tenantId,
-                AccountId = accountId,
+                AccountId = accountId!.ToString(),
                 CategoryId = request.CategoryId,
                 Name = request.Name,
                 Description = request.Description,
@@ -67,20 +68,87 @@ namespace SM.Services.Repository.Products
 
             var results = await iQueryable.Select(m => new ProductDto
             {
-
+                CategoryId = m.CategoryId,
+                CategoryName = m.Category.Name,
+                Name = m.Name,
+                Price = m.Price,
+                CreatedAt = m.CreatedAt,
+                CreatedName = m.Account.FullName,
+                Description = m.Description,
+                Id = m.Id,
+                PurchasePrice = m.PurchasePrice,
+                TenantName = m.Tenant.Name,
             }).ToListAsync();
 
             return new(results);
         }
 
-        public Task<ResponseDto<ProductDto>> GetByIdAsync(Guid id, Guid tenantId)
+        public async Task<ResponseDto<List<ProductDto>>> SearchProductAsync(Guid tenantId, string keyword)
         {
-            throw new NotImplementedException();
+            var iQueryable = _sellerContext.Products.Include(m => m.Tenant).Include(m => m.Category)
+                .Include(m => m.Account)
+                .Where(m => !m.IsDeleted && m.TenantId == tenantId);
+            if(!string.IsNullOrWhiteSpace(keyword))
+            {
+                iQueryable = iQueryable.Where(m => EF.Functions.Like(m.Name.ToLower(), $"%{keyword.ToLower()}%"));
+            }
+
+            var results = await iQueryable.Select(m => new ProductDto
+            {
+                CategoryId = m.CategoryId,
+                CategoryName = m.Category.Name,
+                Name = m.Name,
+                Price = m.Price,
+                CreatedAt = m.CreatedAt,
+                CreatedName = m.Account.FullName,
+                Description = m.Description,
+                Id = m.Id,
+                PurchasePrice = m.PurchasePrice,
+                TenantName = m.Tenant.Name,
+                Label = m.Name,
+                Value = m.Name,
+            }).ToListAsync();
+
+            return new(results);
         }
 
-        public Task<ResponseDto> UpdateAsync(EditProductDto request, Guid tenantId, Guid accountId)
+        public async Task<ResponseDto<ProductDto>> GetByIdAsync(Guid id, Guid tenantId)
         {
-            throw new NotImplementedException();
+            var iQueryable = _sellerContext.Products.Include(m => m.Tenant).Include(m => m.Account).Where(m => !m.IsDeleted && m.Id == id && m.TenantId == tenantId);
+
+            var result = await iQueryable.Select(m => new ProductDto
+            {
+                CategoryId = m.CategoryId,
+                CategoryName = m.Category.Name,
+                Name = m.Name,
+                Price = m.Price,
+                CreatedAt = m.CreatedAt,
+                CreatedName = m.Account.FullName,
+                Description = m.Description,
+                Id = m.Id,
+                PurchasePrice = m.PurchasePrice,
+                TenantName = m.Tenant.Name,
+            }).FirstOrDefaultAsync();
+
+            if (result == null) return new("Không tìm thấy sản phẩm.");
+
+            return new(result);
+        }
+
+        public async Task<ResponseDto> UpdateAsync(EditProductDto request, Guid id, Guid tenantId)
+        {
+            var productE = await _sellerContext.Products.FirstOrDefaultAsync(m => m.Id == id && m.TenantId == tenantId && !m.IsDeleted);
+            if (productE == null) return new("Sản phẩm không tồn tại.");
+
+            productE.Name = request.Name;
+            productE.Description = request.Description;
+            productE.PurchasePrice = request.PurchasePrice;
+            productE.Price = request.Price;
+            productE.CategoryId = request.CategoryId;
+
+            _sellerContext.Update(productE);
+            await _sellerContext.SaveChangesAsync();
+            return new();
         }
     }
 }
